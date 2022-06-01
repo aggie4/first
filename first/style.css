@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1 {
+    border-bottom: 2px solid red;
+}
+#result_area {
+    font-size: 35px;
+    color: red;
+}
+#chance_area {
+    font-size: 40px;
+    color: red;
+}
+input {
+    color: blue;
+    height: 30px;
+    padding: 10px 10px;
+    background-color: black;
+}
+button {
+    border-radius: 50%;
+    background-color: red;
+}
