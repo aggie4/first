@@ -1,26 +1,60 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./img/img_01.orig);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+.text {
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.text > #result_area {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(0, 153, 255);
+    padding: 2px 0 2px 5px;
+    text-align: center;
+    padding-top: 18px;
+    margin: 10px;
+}
+.text > #chance_area {
+    width: 220px;
+    height: 60px;
+    background-color: rgb(0, 153, 255);
+    margin: 10px;
+    padding-top: 18px;
     text-align: center;
 }
-h1 {
-    border-bottom: 2px solid red;
+.button_list {
+    padding: 10px;
+    text-align: center;
 }
-#result_area {
-    font-size: 35px;
-    color: red;
+.button_list > #user_input {
+    border: 3px solid red;
+    border-radius: 20px 20px 20px 20px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
 }
-#chance_area {
-    font-size: 40px;
-    color: red;
-}
-input {
-    color: blue;
-    height: 30px;
-    padding: 10px 10px;
-    background-color: black;
-}
-button {
+.button_list > button {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    background-color: red;
+    border: 2px solid red;
+}
+.button_list > #reset_button {
+    transform: translateY(1px);
 }
